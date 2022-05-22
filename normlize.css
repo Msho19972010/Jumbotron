@@ -1,0 +1,298 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-boxsizing: border-box;
+  -webkit-box: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -wedkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  min-width: 1219px;
+}
+
+.container_head {
+  width: 1219px;
+  margin: 0 auto;
+}
+
+.header {
+  font-family: serif;
+  background: #007765;
+  height: 84px;
+  width: 100%;
+  position: fixed;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  margin-left: auto;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  margin-right: 12px;
+  padding-right: 12px;
+  border-right: 1px solid white;
+}
+
+.logo {
+  width: 184px;
+  height: 45px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.jumbotron {
+  margin-top: -1px;
+  height: 403px;
+  background: url("../images/bg.jpg") no-repeat center / cover;
+}
+
+.title1 {
+  padding-top: 48px;
+  font-family: "Roboto", sans-serif;
+  font-size: 64px;
+  text-align: center;
+  color: #007765;
+}
+
+.container_problem {
+  background-color: #eee;
+  background-size: cover;
+}
+
+.problem_text {
+  width: 1219px;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  margin-top: 16px;
+  padding-bottom: 92px;
+}
+
+.hero {
+  background: url("../images/bg2.jpg") no-repeat center center / cover;
+  height: 483px;
+}
+
+.herotext {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-size: 48px;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+  padding: 128px 15% 128px 15%;
+}
+
+.ppc,
+.logo_ppc {
+  width: 1219px;
+  margin: 0 auto;
+}
+
+.ppc_title {
+  font-family: "Roboto", sans-serif;
+  font-size: 64px;
+  color: #007765;
+  text-align: center;
+  margin-top: 48px;
+}
+
+.logo_img {
+  height: 115px;
+  width: 115px;
+  float: left;
+  margin-right: 48px;
+}
+
+.pcc_text1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  margin-top: 16px;
+}
+
+.pcc_text2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  margin-top: 40px;
+}
+
+.team {
+  background-color: #eee;
+  background-size: cover;
+}
+
+.team_container {
+  width: 1219px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.team_title {
+  font-family: "Roboto", sans-serif;
+  font-size: 64px;
+  color: #007765;
+  text-align: center;
+  padding-top: 58px;
+}
+
+.employee1,
+.employee2,
+.employee3,
+.employee4,
+.employee5,
+.employee6 {
+  display: inline-block;
+  height: 283px;
+  width: 350px;
+}
+
+.employee2 {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.employee1,
+.employee2,
+.employee3 {
+  margin-top: 32px;
+}
+
+.employee5 {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.employee4,
+.employee5,
+.employee6 {
+  margin-top: 30px;
+  margin-bottom: 84px;
+}
+
+.employee_img1,
+.employee_img2,
+.employee_img3,
+.employee_img4,
+.employee_img5,
+.employee_img6 {
+  height: 168px;
+  width: 168px;
+}
+
+.team_container h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: bold;
+  font-size: 24px;
+  color: #007765;
+  margin-top: 12px;
+}
+
+.team_container p {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-size: 18px;
+}
+
+footer {
+  background-color: #333;
+  background-size: cover;
+  height: 176px;
+}
+
+.footer_container {
+  width: 1219px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer_container p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #fff;
+}
+
+.footer_text {
+  height: 64px;
+  padding-top: 50px;
+  padding-bottom: 62px;
+  padding-left: 339px;
+  padding-right: 339px;
+}
