@@ -164,7 +164,7 @@ body {
 .ppc,
 .logo_ppc {
   width: 1219px;
-  margin: 0 auto;
+  margin: 0 auto 25px auto;
 }
 
 .ppc_title {
